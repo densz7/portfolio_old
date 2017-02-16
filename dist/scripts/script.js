@@ -10,8 +10,6 @@ $(document).ready(function() {
         if(window.matchMedia('(min-width: 768px)').matches)
         {
             $('.menu__items').attr('style', 'display: block');
-        } else {
-            $('.menu__items').attr('style', 'display: none');
         }
     });
 });
