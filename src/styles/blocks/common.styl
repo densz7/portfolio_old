@@ -1,0 +1,37 @@
+*
+    margin 0
+    padding 0
+
+html, body
+    height 100%
+    font-size 16px
+
+    @media screen and (max-width $break_sm)
+        font-size 14px
+
+.main-container
+    display -webkit-flex
+    display -moz-flex
+    display -ms-flex
+    display -o-flex
+    display flex
+    flex-direction-sm(column)
+    min-height 100%
+
+.row
+    row-flex()
+
+@font-face
+    font-family $font-awesome
+    src url('../fonts/font-awesome/fontawesome-webfont.eot?v=4.7.0')
+    src url('../fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/font-awesome/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/font-awesome/fontawesome-webfont.ttf?v=4.7.0') format('truetype')
+    font-weight normal
+    font-style normal
+
+.slick-initialized .slick-slide
+    display -webkit-flex
+    display -moz-flex
+    display -ms-flex
+    display -o-flex
+    display flex
+    align-items center

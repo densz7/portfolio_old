@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Портфолио</title>
+        <link rel="stylesheet" href="../dist/styles/style.min.css">
+        
+    </head>
+
+    <body>
+        <div class="main-container">
+            <nav class="menu">
+                <div class="logo menu__logo">
+                    <img class="logo__image" src="../dist/images/menu/menu__logo.png" alt="Логотип">
+
+                    <div class="logo__fullname">денис журавлев</div>
+                </div>
+
+                <div class="menu__toggle">Меню</div>
+
+                <div class="menu__items">
+                    <div class="menu__item">
+                        <a href="/" class="menu__link menu__link--profile">профайл</a>
+                    </div>
+
+                    <div class="menu__item">
+                        <a href="../skills/" class="menu__link menu__link--skills">умения</a>
+                    </div>
+
+                    <div class="menu__item">
+                        <a href="./" class="menu__link menu__link--portfolio">портфолио</a>
+                    </div>
+                    
+                    <div class="menu__item menu__item--last">
+                        <a href="../resume/" class="menu__link menu__link--resume">резюме</a>
+                    </div>
+                </div>
+
+                <div class="menu__copyright">
+                    Denis Zhuravlev © 2017
+                </div>
+            </nav>
+
+            <div class="content">
+                <!--<div class="debug content__debug">
+                    <div>
+                        <div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>-->
+
+                <section class="portfolio">
+                    <div class="container">
+                        <p class="portfolio__text">
+                            Выполненные работы:
+                        </p>
+
+                        <div class="showcase portfolio__showcase">
+                            <a class="showcase__item" href="strict/" target="_blank" data-title="Strict">
+                                <img class="showcase__img" src="../dist/images/showcase/showcase__strict.png" alt="Strict">
+                            </a>
+
+                            <a class="showcase__item" href="mountains/" target="_blank" data-title="Mountains">
+                                <img class="showcase__img" src="../dist/images/showcase/showcase__mountains.png" alt="Mountains">
+                            </a>
+
+                            <a class="showcase__item" href="adventurer/" target="_blank" data-title="Adventurer">
+                                <img class="showcase__img" src="../dist/images/showcase/showcase__adventurer.png" alt="Adventurer">
+                            </a>
+
+                            <a class="showcase__item" href="phototime/" target="_blank" data-title="Phototime">
+                                <img class="showcase__img" src="../dist/images/showcase/showcase__phototime.png" alt="Phototime">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <script type="text/javascript" src=" https://yastatic.net/jquery/2.2.3/jquery.min.js"></script>
+
+        <script src="../dist/scripts/script.js"></script>   
+    </body>
+</html>

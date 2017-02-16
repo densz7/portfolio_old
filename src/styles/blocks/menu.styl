@@ -1,0 +1,123 @@
+.menu
+    display -webkit-flex
+    display -moz-flex
+    display -ms-flex
+    display -o-flex
+    display flex
+    flex-direction column
+    padding-top 15px
+    padding-bottom 20px
+    position relative
+    width 100%
+    max-width 235px
+    font-family 'Segoe UI', 'Calibri', sans-serif
+    background-color #65809a
+    box-shadow 0 0 10px #000
+    box-sizing border-box
+
+    &__toggle
+        display none
+        margin-top 60px
+        padding 10px 0
+        font-size 1.250em
+        color #fff
+        text-transform uppercase
+        cursor pointer
+
+        &::before
+            content '\f0c9'
+            margin-right 15px
+            font-family 'Font Awesome'
+            color #fff
+
+        &:hover
+            background-color #65809a - 15%
+
+
+    &__items
+        display -webkit-flex
+        display -moz-flex
+        display -ms-flex
+        display -o-flex
+        display flex
+        flex-direction column
+        margin-top 85px
+        margin-left 40px
+    
+    &__item
+        margin-bottom 25px
+
+    &__link
+        display inline-block
+        position relative
+        font-family 'Segoe UI', 'Calibri', sans-serif
+        font-size 1.250em
+        color #fff
+        text-transform uppercase
+        text-decoration none
+        &--profile
+            &::after
+                font-family 'Font Awesome'
+                margin-left 12px
+                content '\f007'
+        
+        &--skills
+            &::after
+                font-family 'Font Awesome'
+                margin-left 12px
+                content '\f091'
+        
+        &--portfolio
+            &::after
+                font-family 'Font Awesome'
+                margin-left 12px
+                content '\f03e'
+        
+        &--resume
+            &::after
+                font-family 'Font Awesome'
+                margin-left 12px
+                content '\f0f6'
+
+        &:hover
+            color #0b3359
+        
+        &--active
+            color #0b3359
+            
+    
+    &__copyright
+        margin-top auto
+        text-align center
+        font-size 0.938em
+        color #0b3359
+    
+    @media screen and (max-width $break_sm)
+        padding-bottom 0
+        max-width 100%
+        text-align center
+
+        &__toggle
+            display block
+
+        &__items
+            display none
+            margin-top 20px
+            margin-left 0
+
+        &__item
+            margin-bottom 10px
+            padding 7px 0
+            &:hover
+                background-color #65809a - 15%
+            
+            &--last
+                margin-bottom 0
+        
+        &__link
+            &::before
+                display none
+                
+    
+        &__copyright
+            display none

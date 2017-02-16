@@ -1,0 +1,371 @@
+@media(min-width: 0px) and (max-width: 320px) {
+	
+	/* banner */
+	.banner__title {
+		padding-right: 7px;
+		padding-left: 7px;
+		font-size: 59px;
+	}
+	
+	.banner__slogan {
+		font-size: 17px;
+	}
+	
+	.button {
+		width: 170px;
+		height: 55px;
+		font-size: 16px;
+	}
+	
+	.button--font:hover {
+		font-size: 18px;
+	}
+	
+	/* pure-design */
+	.title {
+		font-size: 30px;
+	}
+	
+	.text {
+		font-size: 17px;
+	}
+	
+	/* feature */
+	.icon {
+		width: 90px;
+		height: 90px;
+	}
+	
+	.icon__image {
+		font-size: 65px;
+	}
+	
+	.icon--size {
+		margin-top: 27px;
+		font-size: 38px;
+	}
+
+	.icon--resize {
+		margin-top: 26px;
+		font-size: 40px;
+	}
+	
+	.title--size {
+		font-size: 21px;
+	}
+	
+	.text--size {
+		font-size: 15px;
+	}
+	
+	/* portfolio */
+	.text--font {
+		font-size: 15px;
+	}
+	
+	.icon-plus, .icon-link {
+		font-size: 14px;
+	}
+	
+	/* support */
+	.form {
+		text-align: center;	
+	}
+	
+	.text--mod  {
+		font-size: 15px;
+	}
+	
+	.input {
+		font-size: 14px;
+	}
+	
+	.form__button {
+		margin-top: 25px;
+		float: none;
+	}
+	
+	.button--size {
+		width: 135px;
+		height: 45px;
+	}
+	
+	.form__check:checked + .label::after {
+		width: 17px;
+	}
+	
+	/* footer */
+	.footer {
+		text-align: center;
+	}
+	
+	.footer__social-block {
+		margin: 0 auto;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		float: none;
+	}
+}
+
+@media(min-width: 321px) and (max-width: 480px) {
+	
+	/* banner */
+	.banner__title {
+		padding-right: 18px;
+		padding-left: 18px;
+		font-size: 80px;
+	}
+	
+	.banner__slogan {
+		font-size: 17px;
+	}
+	
+	.button {
+		width: 175px;
+		height: 60px;
+		font-size: 17px;
+	}
+	
+	.button--font:hover {
+		font-size: 19px;
+	}
+	
+	/* pure-design */
+	.title {
+		font-size: 32px;
+	}
+	
+	.text {
+		font-size: 17px;
+	}
+	
+	/* feature */
+	.icon {
+		width: 90px;
+		height: 90px;
+	}
+	
+	.icon__image {
+		font-size: 65px;
+	}
+	
+	.icon--size {
+		margin-top: 27px;
+		font-size: 38px;
+	}
+
+	.icon--resize {
+		margin-top: 26px;
+		font-size: 40px;
+	}
+	
+	.title--size {
+		font-size: 22px;
+	}
+	
+	.text--size {
+		font-size: 15px;
+	}
+	
+	/* portfolio */
+	.text--font {
+		font-size: 15px;
+	}
+	
+	.icon-plus, .icon-link {
+		font-size: 14px;
+	}
+	
+	/* support */
+	.form {
+		text-align: center;	
+	}
+	
+	.text--mod  {
+		font-size: 15px;
+	}
+	
+	.input {
+		font-size: 14px;
+	}
+	
+	.form__button {
+		margin-top: 25px;
+		float: none;
+	}
+	
+	.button--size {
+		width: 140px;
+		height: 45px;
+	}
+	
+	.form__check:checked + .label::after {
+		width: 17px;
+	}
+	
+	/* footer */
+	.footer {
+		text-align: center;
+	}
+	
+	.footer__social-block {
+		margin: 0 auto;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		float: none;
+	}
+	
+}
+
+@media(min-width: 481px) and (max-width: 768px) {
+	
+	/* banner */
+	.banner__title {
+		padding-right: 35px;
+		padding-left: 35px;
+		font-size: 95px;
+	}
+	
+	.banner__slogan {
+		font-size: 18px;
+	}
+	
+	/* pure-design */
+	.title {
+		font-size: 32px;
+	}
+	
+	.text {
+		font-size: 17px;
+	}
+	
+	/* feature */
+	.icon {
+		width: 90px;
+		height: 90px;
+	}
+	
+	.icon__image {
+		font-size: 65px;
+	}
+	
+	.icon--size {
+		margin-top: 27px;
+		font-size: 38px;
+	}
+
+	.icon--resize {
+		margin-top: 26px;
+		font-size: 40px;
+	}
+	
+	.title--size {
+		font-size: 22px;
+	}
+	
+	.text--size {
+		font-size: 15px;
+	}
+	
+	/* portfolio */
+	.text--font {
+		font-size: 15px;
+	}
+	
+	/* support */
+	.form {
+		text-align: center;	
+	}
+	
+	.text--mod  {
+		font-size: 15px;
+	}
+	
+	.form__button {
+		margin-top: 25px;
+		float: none;
+	}
+	
+	.form__check:checked + .label::after {
+		width: 17px;
+	}
+	
+	/* footer */
+	.footer {
+		text-align: center;
+	}
+	
+	.footer__social-block {
+		margin: 0 auto;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		float: none;
+	}
+	
+}
+
+@media(min-width: 769px) and (max-width: 992px) {
+	
+	/* banner */
+	.banner__title {
+		padding-right: 35px;
+		padding-left: 35px;
+		font-size: 95px;
+	}
+	
+	.banner__slogan {
+		font-size: 18px;
+	}
+	
+	/* pure-design */
+	.title {
+		font-size: 32px;
+	}
+	
+	.text {
+		font-size: 17px;
+	}
+	
+	/* feature */
+	.icon {
+		width: 90px;
+		height: 90px;
+	}
+	
+	.icon__image {
+		font-size: 65px;
+	}
+	
+	.icon--size {
+		margin-top: 27px;
+		font-size: 38px;
+	}
+
+	.icon--resize {
+		margin-top: 26px;
+		font-size: 40px;
+	}
+	
+	.title--size {
+		font-size: 22px;
+	}
+	
+	.text--size {
+		font-size: 15px;
+	}
+	
+	/* portfolio */
+	.text--font {
+		font-size: 15px;
+	}
+	
+	/* support */
+	
+	.text--mod  {
+		font-size: 15px;
+	}
+}
+
+@media(min-width: 993px) and (max-width: 1200px) {
+	
+}

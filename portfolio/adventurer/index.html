@@ -1,0 +1,842 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Adventurer</title>
+
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">
+		<link href="dist/styles/owl.carousel.css" rel="stylesheet">
+		<link href="dist/styles/owl.theme.css" rel="stylesheet">
+		<link href="dist/styles/style.min.css" rel="stylesheet">
+
+
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="preloader">
+			<div class="preloader__loader"></div>
+		</div>
+
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<a class="logo header__logo" href="javascript:void(0);" title="Логотип">adventurer</a>
+
+						<div class="hidden-xs">
+							<div class="header__wrap">
+								<nav class="menu header__menu" id="menu">
+									<a class="menu__item menu__item--active" href="javascript:void(0);">home</a>
+									<a class="menu__item" href="javascript:void(0);">about</a>
+									<a class="menu__item" href="javascript:void(0);">service</a>
+									<a class="menu__item" href="javascript:void(0);">contact</a>
+									<a class="menu__item" href="javascript:void(0);">faq</a>
+									<a class="menu__item" href="javascript:void(0);">support</a>
+								</nav>
+
+								<a class="header__button" href="javascript:void(0);">	
+									<div class="header__show">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</div>
+
+									<div class="header__close">
+										<i class="fa fa-times" aria-hidden="true"></i>
+									</div>	
+								</a>
+
+								<form class="search header__search" action="javascript:void(0);">
+									<input class="search__input" type="search" placeholder="enter the query" required autofocus>
+
+									<div class="search__button">
+										<input class="search__submit" id="search__submit" type="submit" value="">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</div>	
+								</form>
+							</div>
+						</div>
+
+						<div class="visible-xs">
+							<label class="dropdown-menu__icon" for="dropdown-menu__check">
+								<div class="dropdown-menu__lines"></div>
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="row visible-xs">
+					<div class="visible-xs col-xs-12">
+						<input type="checkbox" class="dropdown-menu__check" id="dropdown-menu__check">
+
+						<nav class="dropdown-menu header__dropdown-menu" id="dropdown-menu">
+							
+							
+							<form class="search header__search" action="javascript:void(0);">
+							<input class="search__input" type="search" placeholder="enter the query" required autofocus>
+
+							<div class="search__button">
+								<input class="search__submit" id="search__submit" type="submit" value="">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>	
+							</form>
+
+							<a class="dropdown-menu__item dropdown-menu__item--active" href="javascript:void(0);">home</a>
+							<a class="dropdown-menu__item" href="javascript:void(0);">about</a>
+							<a class="dropdown-menu__item" href="javascript:void(0);">service</a>
+							<a class="dropdown-menu__item" href="javascript:void(0);">contact</a>
+							<a class="dropdown-menu__item" href="javascript:void(0);">faq</a>
+							<a class="dropdown-menu__item" href="javascript:void(0);">support</a>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="banner">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="slider-1 banner__slider owl-carousel">
+							<div>
+								<h1 class="slider-1__title text-center">ADVENTURER</h1>
+
+								<p class="slider-1__text text-center">MURI, A TEMPLATE AT THE HEART OF THE BEAUTY</p>
+
+								<a href="javascript:void(0)" class="button banner__button">see more</a>
+							</div>
+
+							<div>
+								<p class="slider-1__text slider-1__text--size text-center">web development / creative agency / professional photography</p>
+
+								<h2 class="slider-1__title slider-1__title--size text-center">bigbest one page ever built</h2>
+
+								<a href="javascript:void(0)" class="button banner__button">see more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="who-we-are">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="title who-we-are__title text-center">who we are</h2>
+
+						<p class="text who-we-are__text text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<br>standard dummy text ever since the 1500s.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<div class="accordeon">
+							<input class="accordeon__check" id="accordeon__check-1" type="checkbox">
+
+							<label class="accordeon__label" for="accordeon__check-1">
+								Lorem ipsum dolor sit amet
+								<div class="accordeon__plus">+</div>
+								<div class="accordeon__minus">-</div>
+							</label>
+							
+							<article class="accordeon__content">
+								<p class="accordeon__text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend<br>
+Ut urna dui, interdum non blandit sed, hendrerit ultricies mi. Aliquam at scelerisque ligula. Curabitur id laoreet velit.
+								</p>
+							</article>
+						</div>
+
+						<div class="accordeon">
+							<input class="accordeon__check" id="accordeon__check-2" type="checkbox">
+
+							<label class="accordeon__label" for="accordeon__check-2">
+								Lorem ipsum dolor sit amet
+								<div class="accordeon__plus">+</div>
+								<div class="accordeon__minus">-</div>
+							</label>
+							
+							<article class="accordeon__content">
+								<p class="accordeon__text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend<br>
+Ut urna dui, interdum non blandit sed, hendrerit ultricies mi. Aliquam at scelerisque ligula. Curabitur id laoreet velit.
+								</p>
+							</article>
+						</div>
+
+						<div class="accordeon">
+							<input class="accordeon__check" id="accordeon__check-3" type="checkbox">
+
+							<label class="accordeon__label" for="accordeon__check-3">
+								Lorem ipsum dolor sit amet
+								<div class="accordeon__plus">+</div>
+								<div class="accordeon__minus">-</div>
+							</label>
+							
+							<article class="accordeon__content">
+								<p class="accordeon__text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend<br>
+Ut urna dui, interdum non blandit sed, hendrerit ultricies mi. Aliquam at scelerisque ligula. Curabitur id laoreet velit.
+								</p>
+							</article>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6">
+						<div class="progress-bar who-we-are__progress-bar progress-bar--web" data-text="Web design 80%"></div>
+
+						<div class="progress-bar who-we-are__progress-bar progress-bar--html" data-text="Html and Css 60%"></div>
+
+						<div class="progress-bar who-we-are__progress-bar progress-bar--design" data-text="Graphic Design 75%"></div>
+
+						<div class="progress-bar who-we-are__progress-bar progress-bar--wordpress" data-text="Wordpress 90%"></div>
+
+						<div class="progress-bar who-we-are__progress-bar progress-bar--joomla" data-text="Joomla 50%"></div>
+
+						<div class="progress-bar who-we-are__progress-bar progress-bar--php" data-text="Php and MysQl 85%"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="service">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="title service__title text-center">our service</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="service-container service-container--img-left center-block">
+							<h3 class="service-container__title text-left">Free support & updates</h3>
+
+							<p class="service-container__desc text-left">Lorem ipsum dolor sit amet, conse<br>tetuer adipiscing elit, sed diam nonu<br>my nibh euismod tincidunt ut laoreet<br>dolore magna aliquam erat volutpat.</p>
+
+							<a href="javascript:void(0);" class="button service-container__button">see more</a>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="service-container service-container--img-center center-block">
+							<h3 class="service-container__title">Fully customizable</h3>
+
+							<p class="service-container__desc">Lorem ipsum dolor sit amet, conse<br>tetuer adipiscing elit, sed diam nonu<br>my nibh euismod tincidunt ut laoreet<br>dolore magna aliquam erat volutpat.</p>
+
+							<a href="javascript:void(0);" class="button service-container__button">see more</a>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="service-container service-container--img-right center-block">
+							<h3 class="service-container__title text-left">12 theme websites</h3>
+
+							<p class="service-container__desc text-left">Lorem ipsum dolor sit amet, conse<br>tetuer adipiscing elit, sed diam nonu<br>my nibh euismod tincidunt ut laoreet<br>dolore magna aliquam erat volutpat.</p>
+
+							<a href="javascript:void(0);" class="button service-container__button">see more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="join">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="title join__title title--join text-center">Join Our Creative company</h2>
+
+						<p class="text join__text text--join text-center">“ Hello! Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br>
+	tincidunt ut laoreet dolore magna aliquam erat volutpat.”</p>
+
+						<a href="javascript:void(0);" class="button join__button">join with us</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="offer">
+			<div class="container">
+				<dv class="row">
+					<div class="col-xs-12">
+						<h2 class="title offer__title text-center">What we offer</h2>
+					</div>
+				</dv>
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<div class="offer-container">
+							<div class="offer-container__icon" style="background-image: url(dist/images/offer/offer__cloud.png)"></div>
+
+							<h3 class="offer-container__title">technical analysis</h3>
+
+							<p class="offer-container__text">Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry.</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="offer-container">
+							<div class="offer-container__icon" style="background-image: url(dist/images/offer/offer__shop.png)"></div>
+
+							<h3 class="offer-container__title">General contract</h3>
+
+							<p class="offer-container__text">Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry.</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="offer-container">
+							<div class="offer-container__icon" style="background-image: url(dist/images/offer/offer__graph.png)"></div>
+
+							<h3 class="offer-container__title">Consultation</h3>
+
+							<p class="offer-container__text">Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry.</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="offer-container">
+							<div class="offer-container__icon" style="background-image: url(dist/images/offer/offer__basket.png)"></div>
+
+							<h3 class="offer-container__title">24/7 full support</h3>
+
+							<p class="offer-container__text">Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="reviews">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="title reviews__title text-center">CUSTOMER REVIEWS</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-lg-offset-2 col-lg-9">
+						<div class="slider-2">
+							<div>
+								<div class="slider-2__photo" style="background-image: url(dist/images/reviews/reviews__photo.png)"></div>
+
+								<h4 class="slider-2__name">Ejazul islam</h4>
+
+								<span class="slider-2__prof">Diploma In mati bidda</span>
+
+								<p class="slider-2__review">“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”.......</p>
+							</div>
+
+							<div>
+								<div class="slider-2__photo" style="background-image: url(dist/images/reviews/reviews__photo.png)"></div>
+
+								<h4 class="slider-2__name">Ejazul islam</h4>
+
+								<span class="slider-2__prof">Diploma In mati bidda</span>
+
+								<p class="slider-2__review">“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”.......</p>
+							</div>
+
+							<div>
+								<div class="slider-2__photo" style="background-image: url(dist/images/reviews/reviews__photo.png)"></div>
+
+								<h4 class="slider-2__name">Ejazul islam</h4>
+
+								<span class="slider-2__prof">Diploma In mati bidda</span>
+
+								<p class="slider-2__review">“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”.......</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="counter">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="counter-block counter__counter-block" style="background-image: url(dist/images/counter/counter-block__heart.png)">
+							<h4 class="counter-block__number text-center">10k+</h4>
+
+							<span class="counter-block__desk text-center">Love Our Team</span>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="counter-block counter__counter-block" style="background-image: url(dist/images/counter/counter-block__check.png)">
+							<h4 class="counter-block__number text-center">400+</h4>
+
+							<span class="counter-block__desk text-center">Check Our</span>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="counter-block counter__counter-block" style="background-image: url(dist/images/counter/counter-block__repeat.png)">
+							<h4 class="counter-block__number text-center">312</h4>
+
+							<span class="counter-block__desk text-center">repeat client</span>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="counter-block counter__counter-block" style="background-image: url(dist/images/counter/counter-block__beer.png)">
+							<h4 class="counter-block__number text-center">480</h4>
+
+							<span class="counter-block__desk text-center">Pizzas Ordered</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="team">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="title team__title text-center">Meet Our Team</h2>
+
+						<p class="text team__text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec odio ipsum. Suspendisse<br>
+cursus malesuada facilisis.Lorem ipsum dolor sit amet, consectetur facilisis.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="photo-card team__photo-card" style="background-image: url(dist/images/team/team__photo-1.jpg);">
+							<div class="photo-card__effect">
+								<h4 class="photo-card__name text-center">Mahabubul Islam</h4>
+
+								<span class="photo-card__prof text-center">Html-Coder</span>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-dribbble" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-behance" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="photo-card team__photo-card" style="background-image: url(dist/images/team/team__photo-2.jpg);">
+							<div class="photo-card__effect">
+								<h4 class="photo-card__name text-center">Mahabubul Islam</h4>
+
+								<span class="photo-card__prof text-center">Html-Coder</span>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-dribbble" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-behance" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="photo-card team__photo-card" style="background-image: url(dist/images/team/team__photo-3.jpg);">
+							<div class="photo-card__effect">
+								<h4 class="photo-card__name text-center">Mahabubul Islam</h4>
+
+								<span class="photo-card__prof text-center">Html-Coder</span>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-dribbble" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-behance" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="photo-card team__photo-card" style="background-image: url(dist/images/team/team__photo-4.jpg);">
+							<div class="photo-card__effect">
+								<h4 class="photo-card__name text-center">Mahabubul Islam</h4>
+
+								<span class="photo-card__prof text-center">Html-Coder</span>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-dribbble" aria-hidden="true"></i>
+								</a>
+
+								<a href="javascript:void(0);" class="photo-card__icon">
+									<i class="fa fa-behance" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="works">
+			<div class="container">
+				<div class="row">
+					<h2 class="title works__title text-center">Our Awesome Works</h2>
+
+					<p class="text works__text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec odio ipsum. Suspendisse<br>
+cursus malesuada facilisis.Lorem ipsum dolor sit amet, consectetur facilisis.</p>
+				</div>
+
+				<div class="portfolio">
+					<div class="row">
+						<div class="col-xs-12">
+							<a href="javascript:void(0);" class="portfolio__tab" data-filter="all">All</a>
+							<a href="javascript:void(0);" class="portfolio__tab" data-filter=".portfolio__img--photography">Photography</a>
+							<a href="javascript:void(0);" class="portfolio__tab" data-filter=".portfolio__img--graphic">Graphic</a>
+							<a href="javascript:void(0);" class="portfolio__tab" data-filter=".portfolio__img--print">Print</a>
+							<a href="javascript:void(0);" class="portfolio__tab" data-filter=".portfolio__img--web">Web</a>
+						</div>
+					</div>
+					
+					<div class="portfolio__container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-4  portfolio__mix portfolio__img--photography">
+								<div class="portfolio__img" style="background-image: url('dist/images/portfolio/portfolio__img-1.jpg');">
+									<div class="portfolio__filter">
+										<div class="portfolio__icons">
+											<a class="portfolio__zoom" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__zoom.png')"></a>
+
+											<a class="portfolio__link" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__link.png')"></a>
+										</div>
+									</div>
+								</div>
+
+								<h4 class="portfolio__img-name text-center">Our Work Image 01</h4>
+
+								<p class="portfolio__img-desk text-center">Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+ 
+							<div class="col-xs-12 col-sm-6 col-md-4 portfolio__mix portfolio__img--graphic">
+								<div class="portfolio__img" style="background-image: url('dist/images/portfolio/portfolio__img-2.jpg');">
+									<div class="portfolio__filter">
+										<div class="portfolio__icons">
+											<a class="portfolio__zoom" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__zoom.png')"></a>
+
+											<a class="portfolio__link" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__link.png')"></a>
+										</div>
+									</div>
+								</div>
+
+								<h4 class="portfolio__img-name text-center">Our Work Image 01</h4>
+
+								<p class="portfolio__img-desk text-center">Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+
+							<div class="col-xs-12 col-sm-6 col-md-4 portfolio__mix portfolio__img--graphic">
+								<div class="portfolio__img" style="background-image: url('dist/images/portfolio/portfolio__img-3.jpg');">
+									<div class="portfolio__filter">
+										<div class="portfolio__icons">
+											<a class="portfolio__zoom" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__zoom.png')"></a>
+
+											<a class="portfolio__link" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__link.png')"></a>
+										</div>
+									</div>
+								</div>
+
+								<h4 class="portfolio__img-name text-center">Our Work Image 01</h4>
+
+								<p class="portfolio__img-desk text-center">Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+
+							<div class="col-xs-12 col-sm-6 col-md-4 portfolio__mix portfolio__img--web">
+								<div class="portfolio__img" style="background-image: url('dist/images/portfolio/portfolio__img-4.jpg');">
+									<div class="portfolio__filter">
+										<div class="portfolio__icons">
+											<a class="portfolio__zoom" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__zoom.png')"></a>
+
+											<a class="portfolio__link" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__link.png')"></a>
+										</div>
+									</div>
+								</div>
+
+								<h4 class="portfolio__img-name text-center">Our Work Image 01</h4>
+
+								<p class="portfolio__img-desk text-center">Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+
+							<div class="col-xs-12 col-sm-6 col-md-4 portfolio__mix portfolio__img--print">
+								<div class="portfolio__img" style="background-image: url('dist/images/portfolio/portfolio__img-5.jpg');">
+									<div class="portfolio__filter">
+										<div class="portfolio__icons">
+											<a class="portfolio__zoom" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__zoom.png')"></a>
+
+											<a class="portfolio__link" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__link.png')"></a>
+										</div>
+									</div>
+								</div>
+
+								<h4 class="portfolio__img-name text-center">Our Work Image 01</h4>
+
+								<p class="portfolio__img-desk text-center">Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+
+							<div class="col-xs-12 col-sm-6 col-md-4 portfolio__mix portfolio__img--print">
+								<div class="portfolio__img" style="background-image: url('dist/images/portfolio/portfolio__img-6.jpg');">
+									<div class="portfolio__filter">
+										<div class="portfolio__icons">
+											<a class="portfolio__zoom" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__zoom.png')"></a>
+
+											<a class="portfolio__link" href="javascript:void(0)" style="background-image: url('dist/images/portfolio/portfolio__link.png')"></a>
+										</div>
+									</div>
+								</div>
+
+								<h4 class="portfolio__img-name text-center">Our Work Image 01</h4>
+
+								<p class="portfolio__img-desk text-center">Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="awesome">
+			<div class="container">
+				<div class="col-xs-12">
+					<h2 class="title awesome__title text-center">Our Awesome Works</h2>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-five">
+					<div class="awesome__client" style="background-image: url('dist/images/awesome/awesome__img-1.png');">graphicriver</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-five">
+					<div class="awesome__client" style="background-image: url('dist/images/awesome/awesome__img-2.png');">themeforest</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-five">
+					<div class="awesome__client" style="background-image: url('dist/images/awesome/awesome__img-3.png');">audiojungle</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-five">
+					<div class="awesome__client" style="background-image: url('dist/images/awesome/awesome__img-4.png');">codecanyon</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-five">
+					<div class="awesome__client" style="background-image: url('dist/images/awesome/awesome__img-5.png');">activeden</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="subscribe">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-5">
+						<p class="subscribe__text">Subscribe to our newsletter to get every Notify</p>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-offset-3 col-md-4">
+						<form class="subscribe-form subscribe__subscribe-form" action="javascript:void(0);">
+							<input class="subscribe-form__text" type="text" placeholder="Your email" required>
+							
+							<input class="subscribe-form__submit" type="submit" value="">
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="some-info">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<a class="logo some-info__logo" href="javascript:void(0);" title="Логотип">adventurer</a>
+
+						<p class="some-info__text">It is a long established fact that a reader<br> will be distracted by the readable content<br>of a page when looking at its layout.<br>The point of using Lorem Ipsum is that it<br> has a more-or-less normal.</p>
+
+						<div class="social-icons some-info__social-icons">
+							<a class="social-icons__icon" href="javascript:void(0);">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+
+							<a class="social-icons__icon" href="javascript:void(0);">
+								<i class="fa fa-google-plus" aria-hidden="true"></i>
+							</a>
+
+							<a class="social-icons__icon" href="javascript:void(0);">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</a>
+
+							<a class="social-icons__icon" href="javascript:void(0);">
+								<i class="fa fa-vimeo" aria-hidden="true"></i>
+							</a>
+
+							<a class="social-icons__icon social-icons__icon--last" href="javascript:void(0);">
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<h3 class="some-info__features">Some features</h3>
+
+						<ul class="some-info__list">
+							<li class="some-info__item">Lorem ipsum dolor sit amet</li>
+
+							<li class="some-info__item">Aliquam tincidunt cons ectetuer</li>
+
+							<li class="some-info__item">Vestibulum auctor dapibus con</li>
+
+							<li class="some-info__item">Lorem ipsum dolor sit amet<br> auctor dapibus</li>
+						</ul>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<h3 class="some-info__tags">Tags</h3>
+
+						<ul class="some-info__tags-list">
+							<li class="some-info__tag-item">corporate</li>
+
+							<li class="some-info__tag-item">agency</li>
+
+							<li class="some-info__tag-item">portfolio</li>
+
+							<li class="some-info__tag-item">blog</li>
+
+							<li class="some-info__tag-item">elegant</li>
+
+							<li class="some-info__tag-item">professional</li>
+
+							<li class="some-info__tag-item">business</li>
+						</ul>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<h3 class="some-info__posts">Flicker Posts</h3>
+
+						<ul class="some-info__posts-list">
+							<li class="some-info__post-item" style="background-image: url('dist/images/some-info/some-info__item-img-1.jpg');"></li>
+							<li class="some-info__post-item" style="background-image: url('dist/images/some-info/some-info__item-img-2.jpg');"></li>
+							<li class="some-info__post-item" style="background-image: url('dist/images/some-info/some-info__item-img-3.jpg');"></li>
+							<li class="some-info__post-item" style="background-image: url('dist/images/some-info/some-info__item-img-4.jpg');"></li>
+							<li class="some-info__post-item" style="background-image: url('dist/images/some-info/some-info__item-img-5.jpg');"></li>
+							<li class="some-info__post-item" style="background-image: url('dist/images/some-info/some-info__item-img-6.jpg');"></li>
+							<li class="some-info__post-item" style="background-image: url('dist/images/some-info/some-info__item-img-7.jpg');"></li>
+							<li class="some-info__post-item" style="background-image: url('dist/images/some-info/some-info__item-img-8.jpg');"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="footer__copyright">
+							© 2015 loran Kha. All Rights Reserved. <span class="footer__copy-red">Ehsanul</span>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-offset-5 col-md-3">
+						<div class="social-icons footer__social-icons social-icons--footer">
+							<a class="social-icons__icon social-icons__icon--footer" href="javascript:void(0);">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+
+							<a class="social-icons__icon social-icons__icon--footer" href="javascript:void(0);">
+								<i class="fa fa-google-plus" aria-hidden="true"></i>
+							</a>
+
+							<a class="social-icons__icon social-icons__icon--footer" href="javascript:void(0);">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</a>
+
+							<a class="social-icons__icon social-icons__icon--footer" href="javascript:void(0);">
+								<i class="fa fa-vimeo" aria-hidden="true"></i>
+							</a>
+
+							<a class="social-icons__icon social-icons__icon--footer" href="javascript:void(0);">
+								<i class="fa fa-pinterest" aria-hidden="true"></i>
+							</a>
+
+							<a class="social-icons__icon social-icons__icon--footer" href="javascript:void(0);">
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+							</a>
+
+							<a class="social-icons__icon social-icons__icon--footer social-icons__icon--last" href="javascript:void(0);">
+								<i class="fa fa-dribbble" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script type="text/javascript" src=" https://yastatic.net/jquery/2.2.3/jquery.min.js"></script>
+
+		<script src="dist/scripts/script.js"></script>
+	</body>
+</html>

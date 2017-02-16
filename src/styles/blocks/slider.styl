@@ -1,0 +1,29 @@
+.slider
+
+    &__slide
+        min-height 367px
+    
+    &__image
+        margin  0 auto
+        max-width 50%
+    
+    &__prev
+    &__next
+        position absolute
+        top 50%
+        font-family 'Font Awesome'
+        font-size 3em
+        transform translateY(-50%)
+        cursor pointer
+        &:hover
+            color #000 + 30%
+    
+    &__prev
+        left -30px
+        &::after
+            content '\f104'
+    
+    &__next
+        right -30px
+        &::after
+            content '\f105'

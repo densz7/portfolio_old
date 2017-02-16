@@ -1,0 +1,60 @@
+.button
+    position relative
+    display inline-block
+    height 80px
+    line-height 80px
+    width 100%
+    max-width 430px
+    font-family 'Calibri'
+    font-size 2.1em
+    color #fff
+    text-align center
+    text-transform uppercase
+    text-decoration none
+    transition all .35s ease
+
+    &::before
+        content ''
+        position absolute
+        top 0
+        left 0
+        width 100%
+        height 100%
+        box-sizing border-box
+        transition all .35s ease
+    
+    &--profile
+        background-color #4a965c
+
+        &::before
+            border 1px solid #4a965c
+
+        &:hover
+            box-shadow 7px 7px 0 rgba(#4a965c, .5)
+
+            &::before
+                transform translate(-7px, -7px)
+
+        &::after
+            content '\f0e0'
+            margin-left 20px
+            font-family 'Font Awesome'
+    
+
+    &--resume
+        background-color #c72e1e
+
+        &::before
+            border 1px solid #c72e1e
+
+        &:hover
+            box-shadow 7px 7px 0 rgba(#c72e1e, .5)
+
+            &::before
+                transform translate(-7px, -7px)
+
+        &::after
+            content '\f019'
+            margin-left 20px
+            font-family 'Font Awesome'
+
